@@ -1,0 +1,538 @@
+p,
+span,
+li,
+ul,
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(245, 245, 245);
+    cursor: default;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.block {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 62, 58);
+}
+
+.header {
+    height: 136px;
+    position: fixed;
+    z-index: 100;
+}
+
+.center {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.namePage {
+    font-size: 40px;
+}
+
+.buttHead {
+    width: 253px;
+    height: 70px;
+    background-color: transparent;
+    border: 0px solid;
+    margin-left: 30px;
+}
+
+.reg {
+    background-color: rgb(217, 81, 64);
+    font-size: 32px;
+    color: rgb(245, 245, 245);
+}
+
+.auth {
+    border: 4px solid rgb(245, 245, 245);
+    font-size: 32px;
+    color: rgb(245, 245, 245);
+}
+
+.secureSect {
+    height: 900px;
+}
+
+.nameSect {
+    width: 100%;
+    text-align: start;
+    color: rgb(245, 245, 245);
+    font-size: 50px;
+}
+
+.secureSect>.center {
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.card {
+    width: 520px;
+    height: 587px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameCard {
+    font-size: 50px;
+    color: rgb(0, 62, 58);
+}
+
+.nameCardDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    margin: 35px 30px;
+}
+
+.textCardDiv {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.textCard {
+    font-size: 22px;
+    color: rgb(0, 62, 58);
+    margin: 15px 30px;
+}
+
+.sectionTwo_boxThree {
+    background-color: #F5F5F5;
+    height: 15%;
+    position: absolute;
+    width: 63%;
+    top: 32%;
+    left: 17%;
+    padding: 10px;
+}
+
+.textThree {
+    font-family: arial;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.headlnThree {
+    font-size: 36px;
+    padding-bottom: 10px;
+    color: #003E3A;
+}
+
+.headln {
+    color: #F5F5F5;
+    font-size: 50px;
+    padding: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.SectionOne {
+    background-color: #003E3A;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>span {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.SectionOne__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.SectionOne__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    height: 900px;
+}
+
+.SectionOne__text-title {
+    padding: 0;
+    margin-bottom: 27px;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 64px;
+}
+
+.SectionOne__text-subtitle {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 43px;
+}
+
+.SectionOne__text-button {
+    color: white;
+    background-color: #D95140;
+    border: none;
+    outline: none;
+    width: 381px;
+    padding: 16px 26px;
+    font-size: 32px;
+}
+
+.SectionOne__image {
+    width: auto;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -------------------------------------------- */
+
+.SectionThree {
+    background-color: #003E3A;
+}
+
+.SectionThree__container {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SectionFour__step-wrapper {
+    display: flex;
+    width: 1317px;
+    height: 760px;
+}
+
+.SectionThree__step {
+    width: 50%;
+    height: 760px;
+    /* background-color: inherit; */
+}
+
+.SectionThree__step-one {
+    border-right: 2px solid #eeeeee;
+}
+
+.SectionThree__step--card {
+    height: 230px;
+    width: 100%;
+}
+
+.SectionThree__step--card-one {
+    padding: 0 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    position: relative;
+}
+
+.SectionThree__step--card-one::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 110px;
+    width: 29px;
+    height: 2px;
+    background-color: #eeeeee;
+}
+
+.SectionThree__step--card-two {
+    padding: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    position: relative;
+}
+
+.SectionThree__step--card-two::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 29px;
+    height: 2px;
+    background-color: #eeeeee;
+}
+
+.SectionThree__step-title {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 11px;
+}
+
+.SectionThree__step-subtitle {
+    width: 100%;
+    font-size: 18px;
+    color: #F5F5F5;
+}
+
+
+/*Sect2*/
+
+.sect2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(0, 62, 58);
+    width: 100%;
+}
+
+.sect2_1 {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+.sect2_1>span {
+    font-size: 50px;
+}
+
+.sect2_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+}
+
+.sect2_mini {
+    flex-grow: 1;
+    flex-basis: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+
+.sect2_mini>span {
+    color: rgb(0, 62, 58);
+}
+
+.marg {
+    margin-left: 20px
+}
+
+.thirdMini {
+    margin: 20px 0;
+}
+
+.nameMini {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.textMini {
+    font-size: 24px;
+}
+
+.FeedBack {
+    background-color: #003E3A;
+}
+
+.FeedBack__container {
+    display: flex;
+    height: 660px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.FeedBack--card {
+    width: 30%;
+}
+
+.FeedBack__post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FeedBack__post-title {
+    margin-bottom: 83px;
+}
+
+.FeedBack__post-title--title {
+    color: white;
+    font-size: 64px;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.FeedBack__post-title--subtitle {
+    color: rgb(192, 192, 192);
+    font-size: 20px;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 104px;
+}
+
+.FeedBack__post-list--item {
+    color: white;
+    list-style-type: none;
+    font-size: 32px;
+}
+
+.FeedBack__post-contact {
+    display: flex;
+    gap: 13px;
+}
+
+.FeedBack__modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.FeedBack__modal--title {
+    text-align: end;
+    font-family: "Roboto";
+    font-size: 50px;
+    color: white;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+#result {
+    display: none;
+}
+
+.FeedBack__modal--gmail {
+    margin-bottom: 25px;
+}
+
+
+/* .FeedBack__modal--gmail span {} */
+
+.FeedBack__modal--gmail input {
+    font-size: 20px;
+    width: 600px;
+    height: 66px;
+    color: white;
+    padding: 10px;
+}
+
+.span span {
+    margin-bottom: 6px;
+}
+
+.span {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.input {
+    background-color: inherit;
+    outline: none;
+    border: 1px solid #cdcdcd;
+}
+
+.FeedBack___modal--comment textarea {
+    font-size: 20px;
+    padding: 10px;
+    width: 600px;
+    color: white;
+    height: 139px;
+    margin-bottom: 53px;
+    resize: none;
+    text-align: start;
+}
+
+.FeedBack__modal--button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.FeedBack__modal--button button {
+    color: white;
+    background-color: #D95140;
+    padding: 16px 32px;
+    border: none;
+    outline: none;
+    width: 238px;
+    font-size: 32px;
+}
+
+
+#sect1,
+#sect1_img,
+#namePage,
+.sect2_mini,
+.sec3Page,
+#miniPage,
+#text3,
+#sec3Page,
+#miniPageNechet,
+#text3Nechet,
+.nameSect,
+.card,
+#headerPage,
+.buttHead,
+.textF,
+.li,
+.imgs,
+.formF {
+    opacity: 0;
+    position: relative;
+}
+
+#cursour {
+    cursor: pointer;
+}
